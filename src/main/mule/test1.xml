@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener1" doc:id="00511d32-b60a-489e-85b6-0769bd9917d2" config-ref="HTTP_Listener_config" path="/test">
 			<ee:repeatable-file-store-stream />
 		</http:listener>
-		<logger level="INFO" doc:name="Logger" doc:id="67ba99bc-9656-423c-bb91-324e863c6193" message="Success"/>
+		<logger level="INFO" doc:name="Logger1" doc:id="67ba99bc-9656-423c-bb91-324e863c6193" message="Success"/>
 	</flow>
 </mule>
